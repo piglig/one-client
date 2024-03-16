@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 282674936167255573}
   - component: {fileID: 8388686992668954043}
   - component: {fileID: -6601209161867458655}
+  - component: {fileID: -8984480995425635990}
   m_Layer: 0
   m_Name: PlayerManager
   m_TagString: Untagged
@@ -84,3 +85,23 @@ MonoBehaviour:
   rotationSensitivity: 0.01
   positionPrecision: 0.01
   scalePrecision: 0.01
+--- !u!114 &-8984480995425635990
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8645454277398063102}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 242ce4d8d48d0463f8e9f052d15de527, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  syncDirection: 0
+  syncMode: 0
+  syncInterval: 0
+  Card1: {fileID: 8295777444244556764, guid: 4d15d77c35998d346874c4119f046600, type: 3}
+  Card2: {fileID: 6920500618893065903, guid: 219df33fa582179428051d7f5573d228, type: 3}
+  PlayerArea: {fileID: 0}
+  EnemyArea: {fileID: 0}
+  DropZone: {fileID: 0}

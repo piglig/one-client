@@ -301,6 +301,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 265237876}
     m_Modifications:
+    - target: {fileID: -6062430891251479023, guid: 52d1ef7114b6dfd45910610381c8f2c1, type: 3}
+      propertyPath: sceneId
+      value: 1100088411
+      objectReference: {fileID: 0}
     - target: {fileID: 634041159013523981, guid: 52d1ef7114b6dfd45910610381c8f2c1, type: 3}
       propertyPath: m_Name
       value: DropZone
@@ -661,7 +665,13 @@ MonoBehaviour:
   playerPrefab: {fileID: 8645454277398063102, guid: 116c13f9e2c684d52a7c82bf77500d2e, type: 3}
   autoCreatePlayer: 1
   playerSpawnMethod: 0
-  spawnPrefabs: []
+  spawnPrefabs:
+  - {fileID: 8295777444244556764, guid: 4d15d77c35998d346874c4119f046600, type: 3}
+  - {fileID: 6920500618893065903, guid: 219df33fa582179428051d7f5573d228, type: 3}
+  - {fileID: 634041159013523981, guid: 52d1ef7114b6dfd45910610381c8f2c1, type: 3}
+  - {fileID: 8332034605318953238, guid: bed7b6d2850777b4184a60423287fdf5, type: 3}
+  - {fileID: 4310987780332449030, guid: ec727faab97b52f4d96fc41b3814fee0, type: 3}
+  - {fileID: 4264350837402924850, guid: 58fdebd98be15a74896dd1e4cf28f2fe, type: 3}
   exceptionsDisconnect: 1
   snapshotSettings:
     bufferTimeMultiplier: 2
@@ -690,6 +700,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 265237876}
     m_Modifications:
+    - target: {fileID: -3801819456255499360, guid: ec727faab97b52f4d96fc41b3814fee0, type: 3}
+      propertyPath: sceneId
+      value: 2104159678
+      objectReference: {fileID: 0}
     - target: {fileID: 4310987780332449030, guid: ec727faab97b52f4d96fc41b3814fee0, type: 3}
       propertyPath: m_Name
       value: PlayerArea
@@ -821,6 +835,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 265237876}
     m_Modifications:
+    - target: {fileID: 929387029701501866, guid: bed7b6d2850777b4184a60423287fdf5, type: 3}
+      propertyPath: sceneId
+      value: 3326552138
+      objectReference: {fileID: 0}
     - target: {fileID: 8332034605318953238, guid: bed7b6d2850777b4184a60423287fdf5, type: 3}
       propertyPath: m_Name
       value: EnemyArea
@@ -927,6 +945,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 265237876}
     m_Modifications:
+    - target: {fileID: -258211224173447427, guid: 58fdebd98be15a74896dd1e4cf28f2fe, type: 3}
+      propertyPath: sceneId
+      value: 3269831720
+      objectReference: {fileID: 0}
     - target: {fileID: 4264350837402924850, guid: 58fdebd98be15a74896dd1e4cf28f2fe, type: 3}
       propertyPath: m_Name
       value: Button

@@ -62,9 +62,14 @@ public class PlayerManager : NetworkBehaviour
                 card.transform.SetParent(PlayerArea.transform, false);
             } else {
                 card.transform.SetParent(EnemyArea.transform, false);
+                card.GetComponent<CardFlipper>().Flip();
             }
         } else if (type == "Played") {
             card.transform.SetParent(DropZone.transform, false);
+            if (!isOwned)
+            {
+                card.GetComponent<CardFlipper>().Flip();
+            }
         }
     }
 }

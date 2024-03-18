@@ -502,11 +502,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &602254073 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4310987780332449030, guid: ec727faab97b52f4d96fc41b3814fee0, type: 3}
-  m_PrefabInstance: {fileID: 1435091914}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &770946050 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 634041159013523981, guid: 52d1ef7114b6dfd45910610381c8f2c1, type: 3}
@@ -824,9 +819,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 82ca4276ddfd24f43b69aa3547e0fa32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Card1: {fileID: 8295777444244556764, guid: 4d15d77c35998d346874c4119f046600, type: 3}
-  Card2: {fileID: 6920500618893065903, guid: 219df33fa582179428051d7f5573d228, type: 3}
-  PlayerArea: {fileID: 602254073}
+  syncDirection: 0
+  syncMode: 0
+  syncInterval: 0
+  PlayerManager: {fileID: 0}
 --- !u!1001 &2084416543
 PrefabInstance:
   m_ObjectHideFlags: 0

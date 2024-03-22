@@ -72,4 +72,35 @@ public class PlayerManager : NetworkBehaviour
             }
         }
     }
+
+    [Command]
+    public void CmdTargetSelfCard()
+    {
+        TargetSelfCard();
+    }
+
+    [Command]
+    public void CmdCardTargetOtherCard(GameObject target)
+    {
+        CardTargetOtherCard(target);
+    }
+
+    public void CardTargetOtherCard(GameObject target)
+    {
+        NetworkIdentity oppoentIdentity = target.GetComponent<NetworkIdentity>();
+        TargetOtherCard(oppoentIdentity.connectionToClient);
+    }
+
+    [TargetRpc]
+    void TargetSelfCard()
+    {
+        Debug.Log("Targeted by self!");
+    }
+
+
+    [TargetRpc]
+    void TargetOtherCard(NetworkConnection target)
+    {
+        Debug.Log("Targeted by other!");
+    }
 }

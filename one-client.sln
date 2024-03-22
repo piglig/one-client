@@ -21,11 +21,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleWebTransport", "Simpl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mirror.Authenticators", "Mirror.Authenticators.csproj", "{6FC58D8F-9658-3404-928D-FF09418B6A52}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{BE5406F6-C7EF-6543-CCB2-B8B2648417C8}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EncryptionTransportEditor", "EncryptionTransportEditor.csproj", "{D0BD4D6E-D9F3-0FED-CB5A-115C780E6DE5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Telepathy", "Telepathy.csproj", "{6EAED809-1FF5-0B0F-B28F-C2FE98690C7E}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{BE5406F6-C7EF-6543-CCB2-B8B2648417C8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mirror.CompilerSymbols", "Mirror.CompilerSymbols.csproj", "{724368DF-9A67-3631-A57E-DB7FBB7064B4}"
 EndProject
@@ -75,6 +75,10 @@ Global
 		{6FC58D8F-9658-3404-928D-FF09418B6A52}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6FC58D8F-9658-3404-928D-FF09418B6A52}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6FC58D8F-9658-3404-928D-FF09418B6A52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE5406F6-C7EF-6543-CCB2-B8B2648417C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE5406F6-C7EF-6543-CCB2-B8B2648417C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE5406F6-C7EF-6543-CCB2-B8B2648417C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE5406F6-C7EF-6543-CCB2-B8B2648417C8}.Release|Any CPU.Build.0 = Release|Any CPU
 		{D0BD4D6E-D9F3-0FED-CB5A-115C780E6DE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D0BD4D6E-D9F3-0FED-CB5A-115C780E6DE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D0BD4D6E-D9F3-0FED-CB5A-115C780E6DE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -83,10 +87,6 @@ Global
 		{6EAED809-1FF5-0B0F-B28F-C2FE98690C7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6EAED809-1FF5-0B0F-B28F-C2FE98690C7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6EAED809-1FF5-0B0F-B28F-C2FE98690C7E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{BE5406F6-C7EF-6543-CCB2-B8B2648417C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BE5406F6-C7EF-6543-CCB2-B8B2648417C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BE5406F6-C7EF-6543-CCB2-B8B2648417C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BE5406F6-C7EF-6543-CCB2-B8B2648417C8}.Release|Any CPU.Build.0 = Release|Any CPU
 		{724368DF-9A67-3631-A57E-DB7FBB7064B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{724368DF-9A67-3631-A57E-DB7FBB7064B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{724368DF-9A67-3631-A57E-DB7FBB7064B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
